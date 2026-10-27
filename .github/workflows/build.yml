@@ -37,7 +37,7 @@ jobs:
         run: sdkmanager "platforms;android-34" "build-tools;34.0.0"
 
       - name: Extract project
-        run: unzip -q AetherOS-v0.8.zip -d source
+        run: unzip -q AetherOS-v0.9.zip -d source
 
       - name: Build APK
         run: gradle -p source/AetherOS assembleDebug
